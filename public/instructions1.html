@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>README.md</title>
+    <style></style>
+  </head>
+  <body id="preview">
+    <h1>
+      Kanye West Quote Generator
+    </h1>
+    <p>
+      <img
+        src="https://media.giphy.com/media/l2SpKjO20hPyhr1fy/giphy.gif"
+        alt="Kanye"
+      />
+    </p>
+    <h2>Goal</h2>
+    <p>
+      Retrieve information from an API and display a new quote every 30 seconds.
+    </p>
+    <h2>
+      Level 1
+    </h2>
+    <ol>
+      <li>
+        Retrieve a quote from the
+        <a href="https://kanye.rest/">API</a>
+      </li>
+      <li>
+        Change the quote displayed every 30 seconds
+      </li>
+    </ol>
+    <h2>
+      Level 2
+    </h2>
+    <ol>
+      <li>
+        When you load a new quote, save the previous one, and display a
+        "Previous 10 quotes" section with the accumulated quotes.
+      </li>
+      <li>
+        Limit the previous quotes displayed to 10. They should be shown in the
+        order in which they were loaded (eg: last one on top of the previous
+        quotes)
+      </li>
+    </ol>
+    <h2>
+      Level 3
+    </h2>
+    <ol>
+      <li>
+        When no quote is loaded or when a quote is loading, display a
+        "Loading..." message, or a spinner
+      </li>
+      <li>
+        If there was an error fetching a quote; display an error message to the
+        user (eg: "There was a problem loading a Kanye quote, please try again
+        later")
+      </li>
+    </ol>
+    <p>
+      In this exercise, you can use
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        target="_blank"
+        >Fetch</a
+      >
+      or
+      <a href="https://www.npmjs.com/package/axios" target="_blank">Axios</a>.
+    </p>
+  </body>
+</html>
